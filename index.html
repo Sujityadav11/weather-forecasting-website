@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <title> Sky Weather app</title>
+    <head>
+        <link rel="stylesheet" href ="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="weather-app">
+            <div class="container">
+                <h1 class="brand">Sky weather</h1>
+            </div>
+
+        <form id="search-form">
+            <input type="search"
+            placeholder="Enter City Name"
+            id="search-input"
+            required
+            autocomplete="off"
+            />
+            <br>
+        </br>
+        <button id="search-button">Search</button>
+
+        </form>
+
+
+        <main id="app-container">
+            <div id="location">
+                <p>City</p>
+            </div>
+                <div id="temp">
+                    <img id="temp-icon" src="./icons/sun.svg" alt="">
+                    <p><span id="temp-value">0</span> <span id="temp-unit" >&#176c</span> </p>
+                </div>
+
+                <div id="climate">
+                    <p>condition</p>
+                </div>
+
+
+
+
+
+            </main>
+
+
+
+
+<script src="script.js">
+
+</script>
+    </body>
+
+</html>
