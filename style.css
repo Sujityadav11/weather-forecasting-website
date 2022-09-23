@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+height: 100px;
+background-color: #263859;
+
+}
+
+/*h1{
+    font-weight: 400;
+    background-color: rgb(14, 5, 5);
+    color: rgb(30, 117, 45);
+    font-size: 300%;
+    border: 2px solid rgb(17, 68, 78);
+    padding: 16px;}*/
+    h1 {
+        font-weight: 400;
+        background-color: rgb(185 191 207);
+        color: rgb(0 0 0);
+        font-size: 300%;
+        border: 2px solid rgb(17, 68, 78);
+        padding: 16px;
+        box-shadow: 0 8px 32px 0;
+        text-shadow: 2px 2px #39b5a9;
+        transition-timing-function: ease;
+    }
+    
+
+
+.weather-app{
+    min-height: 100vh;
+    background-image: url(./image/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    transition: 500ms;
+    opacity: 1;
+}
+
+
+
+#search-form
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+}
+
+#temp
+{
+text-align: center;
+}
+
+#temp #temp-unit
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1.5rem;
+color: #ffffff;
+}
+#temp #temp-value
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 2rem;
+color: #ffffff;
+
+}
+#climate
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 2.5rem;
+color: #ffffff;
+text-align: center;
+}
+#location
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 2.5rem;
+color: #ffffff;
+text-align: center;
+}
+
+
+
+
+#temp-icon
+{
+margin: 1rem;
+width: 40%;
+height: auto;
+}
+
+
+main{
+
+padding: 20px;
+margin-top: 10px;
+background-color: #6b778d;
+border-radius: 20px;
+width: 360px;
+height: 360px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+background: rgba(110,110,110,0.25);
+box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+box-shadow: 0 8px 32px 0;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid
+rgb(255,255,255,0.18);
+z-index: 1;
+
+
+}
+
+
+#search-button
+{
+color: #494949;
+text-transform: uppercase;
+text-decoration: none;
+background: rgb(121, 178, 204);
+border-radius: 5px;
+margin-left: 5px;
+padding: 11px;
+border: 2px solid #494949;
+display: inline-block;
+transition: all 0.4 ease 0s;
+
+}
+#search-button:hover{
+
+color: #27484d;
+background: #3e7cd8;
+border-color: #2225c7;
+transition: all 0.4s ease 0s;
+
+
+
+
+}
+
+#search-input
+{
+width: 260px;
+overflow: hidden;
+font-size: 20px;
+margin: 8px 0;
+padding: 8px 0;
+border-bottom: 3px solid #2f62cf;
+color: white;
+outline: none;
+background: none;
+
+text-shadow: 2px 2px #00bfbf;
+}
+input
+{
+border: none;
+}
+
